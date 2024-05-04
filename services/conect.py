@@ -64,6 +64,9 @@ def buscaAqui():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
     
+@app.route('/donwloadUsers', method=['POST'])
+def donwloaduserFile():
+    pass
 
 
 @app.route('/buscarUsuarios', methods=['POST'])
