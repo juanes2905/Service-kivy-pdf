@@ -1,0 +1,8 @@
+{
+    "DATABASE":{
+        "server": "127.0.0.1",
+        "user": "ci24",
+        "password": "jupiter2040",
+        "database": "CI_ControlAccessDb"
+    }
+}
